@@ -73,3 +73,16 @@ header ul a:focus {
     padding: 10px 32px;
     letter-spacing: 0.96px;
 }
+
+.our-advantages ul h2 {
+    font-weight: 700;
+    line-height: 1.1721;
+    letter-spacing: 0.42px;
+}
+
+.our-advantages ul p {
+    font-size: 14px;
+    line-height: 1.7142;
+    letter-spacing: 0.42;
+    color: var(--dark-gray);
+}
