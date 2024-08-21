@@ -8,6 +8,7 @@
     --dark-gray: #757575;
     --white: #fff;
     --sky-blue: #2196F3;
+    --very-dark: #2F303A;
 }
 
 body {
@@ -52,7 +53,7 @@ header ul a:focus {
 }
 
 .hero {
-    background-color: #2F303A;
+    background-color: var(--very-dark);
 }
 
 .hero-title {
@@ -98,9 +99,13 @@ header ul a:focus {
     text-align: center;
 }
 
-.wwd-img img {
+.about-us-img img {
     width: 340px;
     height: 294px;
+}
+
+.our-team {
+    background: #F5F4FA;
 }
 
 .our-team div {
@@ -118,3 +123,27 @@ header ul a:focus {
     font-weight: 400;
     text-align: center;
 }
+
+footer {
+    background: var(--very-dark);
+}
+
+footer .logo {
+    color: var(--white);
+}
+
+.address {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.7142;
+    letter-spacing: 0.42px;
+}
+
+.address p {
+    color: var(--white);
+}
+
+.address a {
+    color: rgba(255, 255, 255, 0.6);
+}
+
