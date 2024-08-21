@@ -23,7 +23,7 @@ ul {
     list-style-type: none;
 }
 
-.title {
+.logo {
     font-family: var(--raleway);
     font-size: 26px;
     line-height: 1.1738;
@@ -90,7 +90,7 @@ header ul a:focus {
     color: var(--dark-gray);
 }
 
-.what-we-do h2 {
+.title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.1719;
@@ -98,5 +98,23 @@ header ul a:focus {
     text-align: center;
 }
 
+.wwd-img img {
+    width: 340px;
+    height: 294px;
+}
 
+.our-team div {
+    font-size: 16px;
+    line-height: 1.1718;
+    letter-spacing: 0.48px;
+}
 
+.our-team h2 {
+    font-weight: 500;
+    text-align: center;
+}
+
+.our-team p {
+    font-weight: 400;
+    text-align: center;
+}
